@@ -1,0 +1,153 @@
+import React from 'react';
+import '@/styles/global.css';
+import Grid from '@mui/joy/Grid';
+import Card from '@mui/joy/Card';
+import { styled } from '@mui/joy/styles';
+import CardOverflow from '@mui/joy/CardOverflow';
+import Typography from '@mui/joy/Typography';
+import { CursorHighlight } from '@/components/ui/cursor-highlight';
+import { animate, motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
+import AnimateCard from './AnimateCard';
+
+export default function Content3() {
+  return (
+    <div className='white-fon '>
+      <div className='flex items-start flex-col'>
+        <button className='rounded-2xl' id='services'>
+          Услуги
+        </button>
+        <div className='text-services'>
+          <h1 style={{ marginTop: '20px', marginBottom: '10px' }}>
+            Что мы{' '}
+            <span>
+              {' '}
+              <CursorHighlight
+                className=''
+                gradient='from-[#9373ea] via-[#9373ea] to-[#9373ea]'
+                showPointer={true}
+                pointerClassName='text-[#9373ea]'
+              >
+                изготавливаем
+              </CursorHighlight>
+            </span>{' '}
+          </h1>
+          <h2>
+            Делаем так
+            <span style={{ color: '#9373ea' }}> чтобы</span> ваш бизнес заметили
+            с улицы.
+            <br />
+          </h2>
+        </div>
+      </div>
+      <div className='pt-10'>
+        <Grid container spacing={2}>
+          {[
+            {
+              title: 'Профессиональная поклейка окон',
+              description:
+                'Оформляем витрины и окна плёнкой любой сложности: реклама, матирование, защита от солнца и посторонних взглядов. Работаем аккуратно, без пузырей и перекосов, с гарантией долговечности.',
+              img: 'https://avatars.mds.yandex.net/get-ydo/3937212/2a000001871e3840518a4d409d8fbfd6f0e7/diploma',
+              link: 'https://i.pini',
+            },
+            {
+              title: 'Дизайн рекламных материалов',
+              description:
+                'Разрабатываем макеты, которые продают: от визиток и наклеек до баннеров и вывесок. Учитываем фирменный стиль, задачи рекламы и особенности вашего бизнеса.',
+              img: 'https://avatars.mds.yandex.net/get-ydo/10236117/2a00000197d566ae0f8064288771c4dbb08e/diploma',
+            },
+            {
+              title: 'Неоновые вывески',
+              description:
+                'Яркие и стильные неоновые конструкции для привлечения внимания днём и ночью. Изготовление по индивидуальному макету, экономичное энергопотребление и эффектный внешний вид.',
+              img: 'https://i.pinimg.com/736x/65/e7/a1/65e7a1f69f502cc53cb19db6693f7051.jpg',
+            },
+            {
+              title: 'Объёмные световые буквы',
+              description:
+                'Изготавливаем буквы с внутренней и контражурной подсветкой. Чёткая читаемость, современный дизайн и устойчивость к любым погодным условиям.',
+              img: 'https://i.pinimg.com/1200x/0b/45/96/0b4596e0701f1b129106a8497652d625.jpg',
+            },
+            {
+              title: 'Консоли',
+              description:
+                'Двусторонние вывески с подсветкой для размещения перпендикулярно фасаду. Отлично заметны издалека и помогают привлечь поток клиентов с улицы.',
+              img: 'https://i.pinimg.com/1200x/87/6e/2e/876e2e632a8edc53beb8749681041cf6.jpg',
+            },
+            {
+              title: 'Лайтбоксы',
+              description:
+                'Лайтбоксы с подсветкой — яркая и универсальная реклама. Световые короба с акриловым фасадом и прочным корпусом подходят для установки внутри помещений и на фасадах.',
+              img: 'https://i.pinimg.com/736x/a8/e3/9e/a8e39e348d5f2c80e1a821f041183cbf.jpg',
+            },
+            ,
+            {
+              title: 'Деревянные вывески',
+              description:
+                'Эко-стиль и натуральные материалы для атмосферных заведений. Подчеркнём индивидуальность вашего бренда с помощью фактуры и ручной обработки.',
+              img: 'https://i.pinimg.com/1200x/f6/e4/d4/f6e4d4ee57def730d13def20886b4a23.jpg',
+            },
+            {
+              title: 'Вывески из металла',
+              description:
+                'Металлические вывески в стиле лофт — индустриальный шарм для бизнеса. Идеальны для ресторанов, баров и заведений, где важна атмосферная и уникальная эстетика.',
+              img: 'https://i.pinimg.com/1200x/d8/7b/33/d87b333942806f59f4ee19897ac00fd0.jpg',
+            },
+            {
+              title: 'Фито-вывески из растений',
+              description:
+                'Логотипы и вывески из стабилизированного мха создают атмосферу уюта и природного стиля. Подходят для офисов, ресторанов и заведений, где важна эстетика и индивидуальность.',
+              img: 'https://i.pinimg.com/736x/43/e3/2e/43e32e0c0b361ec3fbcb3596cc0010b0.jpg',
+            },
+            {
+              title: 'Планы эвакуации',
+              description:
+                'Изготовление по ГОСТ, с учётом всех требований пожарной безопасности. Чёткая навигация и долговечная печать для любых помещений.',
+              img: 'https://i.pinimg.com/1200x/21/74/90/217490e21bb4019f62b42e99afdf90dc.jpg',
+            },
+            {
+              title: 'Информационные таблички',
+              description:
+                'Офисные, навигационные и уличные таблички из ПВХ, акрила и металла. Чёткий текст, аккуратный монтаж и единый стиль.',
+              img: 'https://i.pinimg.com/736x/39/c1/dd/39c1dd2596230b9c1b9c56a32006e703.jpg',
+            },
+            {
+              title: 'Наклейки и стикеры',
+              description:
+                'Профессиональное производство рекламных наклеек и стикеров для любых задач: от креативного дизайна до печати тиражей на современном оборудовании.',
+              img: 'https://i.pinimg.com/736x/cd/fd/fa/cdfdfae9c0a1da05f8a6bf1826e08f2e.jpg',
+            },
+            {
+              title: 'Рекламные стелы',
+              description:
+                'Рекламная стела — конструкция до 10 м из композитного алюминия на металлическом каркасе. Идеальна для ТЦ, АЗС, автосалонов и других коммерческих территорий с высокой видимостью.',
+              img: 'https://i.pinimg.com/736x/39/81/11/3981119ae9ef67051dc51abcd043f30a.jpg',
+            },
+            {
+              title: 'Ролл-ап стенд',
+              description:
+                'Мобильные роллерные стенды (ролапы) — универсальное решение для выставок и рекламы. Компактный механизм позволяет легко развернуть и убрать рекламное полотно.',
+              img: 'https://i.pinimg.com/736x/af/8f/92/af8f920a7d7c8b41b37f5152fb742599.jpg',
+            },
+            {
+              title: 'Оклейка витрин',
+              description:
+                'Полное оформление витрин: мы клеим аппликации, стикеры и контурные изображения, превращая пространство в эффектную рекламную площадку, которая привлекает внимание клиентов.',
+              img: 'https://i.pinimg.com/736x/cf/80/9a/cf809aea48349c9d3a94beed8445b76b.jpg',
+            },
+            {
+              title: 'Печать баннера',
+              description:
+                'Брезентовые баннеры — надёжное и универсальное решение для временной и постоянной рекламы на улице, устойчивы к ветру и дождю.',
+              img: 'https://i.pinimg.com/1200x/b8/7e/69/b87e697741a427841afa647168c55187.jpg',
+            },
+          ].map((card, index) => (
+            <Grid item xs={12} sm={6} md={6} lg={3.0}>
+              <AnimateCard index={index} card={card} />
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+    </div>
+  );
+}
