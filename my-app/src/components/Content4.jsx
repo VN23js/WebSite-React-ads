@@ -4,7 +4,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel';
+} from '@/components/ui/carousel1';
 import FullWidthGrid from './Contacts';
 
 export default function Content4() {
