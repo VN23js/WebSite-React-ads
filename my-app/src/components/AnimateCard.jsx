@@ -20,7 +20,7 @@ export default function AnimateCard({ card, index }) {
       ref={ref}
       initial={{ opacity: 0, x: -100 }}
       animate={isInView ? { opacity: 1, x: 0 } : {}}
-      transition={{ duration: 0.8, ease: 'easeOut', delay: (index % 4) * 0.12 }}
+      transition={{ duration: 0.4, ease: 'easeOut', delay: (index % 4) * 0.12 }}
       style={{ height: '100%' }} // чтобы занимал всю высоту Grid item
     >
       <Item

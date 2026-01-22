@@ -31,10 +31,16 @@ a {
 .burger {
   display: none; /* по умолчанию скрыт */
 }
+@media (min-width: 901px) {
+  .btnmess {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .burger {
     display: contents;
   }
+
   .header-text {
     display: none;
   }
@@ -94,7 +100,8 @@ a {
 
 /* ===== HERO CARD ===== */
 .hero-card {
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 50% 30%,
       rgba(120, 90, 255, 0.12),
       transparent 55%
@@ -176,7 +183,8 @@ a {
 }
 
 .our-works-fon {
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 50% 30%,
       rgba(120, 90, 255, 0.12),
       transparent 55%
@@ -210,5 +218,6 @@ a {
   justify-content: center;
   position: relative;
 }
-.item-slider {
+.btncontact {
+  z-index: 100;
 }

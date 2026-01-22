@@ -19,8 +19,8 @@ export default function DrawerMobileNavigation() {
       <IconButton
         onClick={() => setOpen(true)}
         sx={{
-          backgroundColor: 'rgb(147, 115, 234)',
-          borderRadius: '18px',
+          backgroundColor: '#7c3aed',
+          borderRadius: '20px',
           width: 45,
           height: 45,
           color: '#fff',
@@ -29,7 +29,12 @@ export default function DrawerMobileNavigation() {
           },
         }}
       >
-        <Menu />
+        <Menu
+          sx={{
+            width: 30,
+            height: 30,
+          }}
+        />
       </IconButton>
 
       {/* DRAWER */}
@@ -67,6 +72,15 @@ export default function DrawerMobileNavigation() {
               href='#ourContacts'
             >
               Контакты
+            </a>
+          </ListItemButton>
+          <ListItemButton>
+            <a
+              onClick={() => setOpen(false)}
+              className='hover:text-black w-full'
+              href='#'
+            >
+              Отзывы
             </a>
           </ListItemButton>
           <Box sx={{ px: 3, pt: 2 }}>
