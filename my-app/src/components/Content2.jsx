@@ -70,6 +70,10 @@ export default function Content2() {
                     Более <span style={{ color: '#9373ea' }}>20 лет</span> опыта
                     работы с окнами, витринами и интерьером, г. Санкт-Петербург
                   </h3>
+                  <p className='sr-only'>
+                    Заказать поклейку окон и оформление витрин в
+                    Санкт-Петербурге
+                  </p>
                 </motion.div>
               </div>
             </Item>
@@ -87,7 +91,7 @@ export default function Content2() {
                   <div className='main-image-box'>
                     <img
                       src='/CLPQDGnnLOWt3KJFdBdAOytH5HvsbfJ5eq9ot3Ch7577QM878r8g9Ctwm0OMg22bVLRl29dftotBRf3wlpGDSaWU.jpg'
-                      alt=''
+                      alt='Профессиональная поклейка окон и оформление витрин ART STICK'
                     />
                   </div>
                 </div>
