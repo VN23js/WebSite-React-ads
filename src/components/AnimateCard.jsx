@@ -48,7 +48,7 @@ export default function AnimateCard({ card, index }) {
             <div className='image-wrapper'>
               <img
                 src={card.img}
-                alt='Service'
+                alt='Профессиональная поклейка окон и оформление витрин ART STICK в Санкт-Петербурге'
                 loading='lazy'
                 style={{
                   width: '100%',
@@ -70,7 +70,7 @@ export default function AnimateCard({ card, index }) {
               {card.description}
             </Typography>
             <div className='py-1'></div>
-            <a href={card.link}>
+            <a href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'>
               <button className='button-3  mt-auto'>Заказать</button>
             </a>
           </div>

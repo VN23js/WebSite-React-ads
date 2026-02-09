@@ -78,7 +78,7 @@ export default function DrawerMobileNavigation() {
             <a
               onClick={() => setOpen(false)}
               className='hover:text-black w-full'
-              href='#'
+              href='https://m.avito.ru/user/d408dd0bec883d10d60bcd80fec8b2ec/profile/all/predlozheniya_uslug?id=2815277141&src=item&sellerId=d408dd0bec883d10d60bcd80fec8b2ec#open-reviews-list'
             >
               Отзывы
             </a>
@@ -94,7 +94,7 @@ export default function DrawerMobileNavigation() {
           {/* ТЕЛЕФОН */}
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <a
-              href='tel:+71234567890'
+              href='tel:+79633071303'
               className='
                 flex items-center gap-3
                 px-5 py-3
@@ -106,7 +106,7 @@ export default function DrawerMobileNavigation() {
               '
             >
               <Phone className='w-5 h-5' />
-              <span className='font-medium'>+7 (123) 456-78-90</span>
+              <span className='font-medium'> +7 (963) 307-13-03</span>
             </a>
           </Box>
 
@@ -120,35 +120,37 @@ export default function DrawerMobileNavigation() {
             }}
           >
             <a
-              href='https://t.me/yourname'
+              href='https://t.me/Kot12290'
               target='_blank'
-              className='w-18 h-18 flex items-center justify-center rounded-full  border-black/30 hover:bg-black transition'
+              className='w-18 h-18 flex items-center justify-center rounded-full  border-black/30 transition'
             >
               <img src='/telegram.svg' className='w-13 h-13' />
             </a>
 
             <a
-              href='https://wa.me/71234567890'
-              target='_blank'
-              className='w-18 h-18 flex items-center justify-center rounded-full  border-black/30 hover:bg-black transition'
-            >
-              <img src='/whatsapp-whats-app.svg' className='w-12 h-12' />
-            </a>
-            <a
-              href='https://www.avito.ru/' // при желании можно заменить на профиль
+              href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller' // при желании можно заменить на профиль
               target='_blank'
               rel='noopener noreferrer'
-              className='w-18 h-18 flex items-center justify-center rounded-full  border-black/30 hover:bg-black transition'
+              className='w-18 h-18 flex items-center justify-center rounded-full  border-black/30  transition'
             >
               <img src='/avito.png' alt='Avito' className='w-13 h-13' />
             </a>
+
             <a
-              href='https://web.max.ru/'
+              href=' https://max.ru/u/f9LHodD0cOK9R9T971VS1ANcJ8TZCsQjKuGhrY3bI4UyncOL6nOsE6XtSt8'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-18 h-18 flex items-center justify-center rounded-full hover:bg-black transition'
+              className='w-18 h-18 flex items-center justify-center rounded-full  transition'
             >
               <img src='/max.svg' alt='Max' className='w-13 h-13' />
+            </a>
+            <a
+              href='https://vk.ru/reclame'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='w-18 h-18 flex items-center justify-center rounded-full  transition'
+            >
+              <img src='/vk-v2.svg' alt='Max' className='w-13 h-13' />
             </a>
           </Box>
         </List>

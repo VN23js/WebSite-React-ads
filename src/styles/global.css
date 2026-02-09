@@ -32,9 +32,6 @@ a {
   display: none; /* по умолчанию скрыт */
 }
 @media (min-width: 901px) {
-  .btnmess {
-    display: none;
-  }
 }
 @media (max-width: 900px) {
   .burger {
@@ -220,4 +217,26 @@ a {
 }
 .btncontact {
   z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-mark {
+  width: 6px;
+  height: 28px;
+  background: #7808d0;
+  border-radius: 3px;
+}
+.logo-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+
+  color: #000;
+  text-transform: uppercase;
 }

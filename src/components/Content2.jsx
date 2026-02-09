@@ -71,7 +71,13 @@ export default function Content2() {
                     работы с окнами, витринами и интерьером, г. Санкт-Петербург
                   </h3>
                   <p className='sr-only'>
-                    Заказать поклейку окон и оформление витрин в
+                    Заказать поклейку окон и оформление витрин в городе
+                    Санкт-Петербурге
+                  </p>
+                  <p className='sr-only'>
+                    Разрабатываем макеты, которые продают: от визиток и наклеек
+                    до баннеров и вывесок. Учитываем фирменный стиль, задачи
+                    рекламы и особенности вашего бизнеса. в городе
                     Санкт-Петербурге
                   </p>
                 </motion.div>
@@ -91,7 +97,7 @@ export default function Content2() {
                   <div className='main-image-box'>
                     <img
                       src='/CLPQDGnnLOWt3KJFdBdAOytH5HvsbfJ5eq9ot3Ch7577QM878r8g9Ctwm0OMg22bVLRl29dftotBRf3wlpGDSaWU.jpg'
-                      alt='Профессиональная поклейка окон и оформление витрин ART STICK'
+                      alt='Профессиональная поклейка окон и оформление витрин ART STICK в Санкт-Петербурге'
                     />
                   </div>
                 </div>
@@ -101,7 +107,7 @@ export default function Content2() {
         </Grid>
       </div>
       <div className='button-fon mt-6  '>
-        <a href='tel:+71234567890' className='color-w group'>
+        <a href='tel:+79633071303' className='color-w group'>
           <button
             className='button-glass color-w  bg-transparent font-semibold border-2 w-40 rounded-full border-white py-3
          transition relative flex items-center justify-center group'

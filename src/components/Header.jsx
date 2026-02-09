@@ -9,21 +9,29 @@ export default function Header() {
         <div className='fon'>
           <div className='main-container'>
             <div className='header-div'>
-              <div className='logo'>ART STICK</div>
+              <div class='logo'>
+                <div class='logo-mark'></div>
+                <div class='logo-text'>ART STICK</div>
+              </div>
               <div className='header-text'>
                 <div className='hover-text'>
                   <a className='hover:text-black' href='#services'>
                     Услуги
                   </a>
                 </div>
-
                 <div className='hover-text'>
                   <a className='hover:text-black' href='#ourWork'>
                     Наши работы
                   </a>
                 </div>
+
                 <div className='hover-text'>
-                  <p>Отзывы</p>
+                  <a
+                    className='hover:text-black'
+                    href='   https://m.avito.ru/user/d408dd0bec883d10d60bcd80fec8b2ec/profile/all/predlozheniya_uslug?id=2815277141&src=item&sellerId=d408dd0bec883d10d60bcd80fec8b2ec#open-reviews-list'
+                  >
+                    Отзывы
+                  </a>
                 </div>
                 <div className='hover-text'>
                   <a className='hover:text-black' href='#ourContacts'>
@@ -59,7 +67,7 @@ export default function Header() {
                 </div> */}
 
                 <a
-                  href='https://wa.me/71234567890'
+                  href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'
                   className='button-2'
                   style={{ '--clr': '#7808d0' }}
                 >

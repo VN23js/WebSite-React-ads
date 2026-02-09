@@ -50,93 +50,134 @@ export default function Panel() {
         <div className='p-2'>
           <List size='lg' sx={{ px: 1, pt: 2 }}>
             {/* Telegram */}
-            <ListItemButton
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                border: '2px solid #d1d5db', // Tailwind gray-300
-                borderRadius: '1rem',
-                padding: '0.7rem',
-                mb: 1, // отступ снизу
-                '&:hover': {
-                  backgroundColor: '#f3f4f6', // gray-100
-                },
-              }}
-            >
-              <img src='/telegram.svg' className='w-10 h-10' alt='Telegram' />
-              <a className='text-lg font-semibold hover:text-black' href='#'>
-                Telegram
-              </a>
-            </ListItemButton>
-
-            {/* WhatsApp */}
-            <ListItemButton
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                border: '2px solid #d1d5db', // Tailwind gray-300
-                borderRadius: '1rem',
-                padding: '0.7rem',
-                mb: 1, // отступ снизу
-                '&:hover': {
-                  backgroundColor: '#f3f4f6', // gray-100
-                },
-              }}
-            >
-              <img
-                src='/whatsapp-whats-app.svg'
-                className='w-10 h-10'
-                alt='WhatsApp'
-              />
-              <a className='text-lg font-semibold hover:text-black' href='#'>
-                WhatsApp
-              </a>
-            </ListItemButton>
-            <ListItemButton
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                border: '2px solid #d1d5db', // Tailwind gray-300
-                borderRadius: '1rem',
-                padding: '0.7rem',
-                mb: 1, // отступ снизу
-                '&:hover': {
-                  backgroundColor: '#f3f4f6', // gray-100
-                },
-              }}
-            >
-              <img src='/max.svg' className='w-10 h-10' />
-              <a className='text-lg font-semibold hover:text-black' href='#'>
-                Max
-              </a>
-            </ListItemButton>
-
-            {/* Телефон */}
-            <ListItemButton
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                border: '2px solid #d1d5db', // Tailwind gray-300
-                borderRadius: '1rem',
-                padding: '0.7rem',
-                mb: 1, // отступ снизу
-                '&:hover': {
-                  backgroundColor: '#f3f4f6', // gray-100
-                },
-              }}
-            >
-              <img src='/phone.svg' className='w-10 h-10' alt='Phone' />
-              <a
-                className='text-lg font-semibold hover:text-black'
-                href='tel:+71234567890'
+            <a href='https://t.me/Kot12290' target='_blank'>
+              <ListItemButton
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  border: '2px solid #d1d5db', // Tailwind gray-300
+                  borderRadius: '1rem',
+                  padding: '0.7rem',
+                  mb: 1, // отступ снизу
+                  '&:hover': {
+                    backgroundColor: '#f3f4f6', // gray-100
+                  },
+                }}
               >
-                +7 (123) 456-78-90
-              </a>
-            </ListItemButton>
+                <img src='/telegram.svg' className='w-10 h-10' alt='Telegram' />
+                <a
+                  className='text-lg font-semibold hover:text-black'
+                  href='https://t.me/Kot12290'
+                >
+                  Telegram
+                </a>
+              </ListItemButton>
+            </a>
+            <a href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'>
+              <ListItemButton
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  border: '2px solid #d1d5db', // Tailwind gray-300
+                  borderRadius: '1rem',
+                  padding: '0.7rem',
+                  mb: 1, // отступ снизу
+                  '&:hover': {
+                    backgroundColor: '#f3f4f6', // gray-100
+                  },
+                }}
+              >
+                <img src='/avito.png' className='w-10 h-10' alt='Avito' />
+                <a
+                  className='text-lg font-semibold hover:text-black'
+                  href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'
+                >
+                  Avito
+                </a>
+              </ListItemButton>
+            </a>
+
+            {/*vk */}
+            <a href='https://vk.ru/reclame' target='_blank'>
+              <ListItemButton
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  border: '2px solid #d1d5db', // Tailwind gray-300
+                  borderRadius: '1rem',
+                  padding: '0.7rem',
+                  mb: 1, // отступ снизу
+                  '&:hover': {
+                    backgroundColor: '#f3f4f6', // gray-100
+                  },
+                }}
+              >
+                <img src='/vk-v2.svg' className='w-10 h-10' alt='WhatsApp' />
+
+                <a
+                  className='text-lg font-semibold hover:text-black'
+                  href='https://vk.ru/reclame'
+                >
+                  VK
+                </a>
+              </ListItemButton>
+            </a>
+            <a
+              href=' https://max.ru/u/f9LHodD0cOK9R9T971VS1ANcJ8TZCsQjKuGhrY3bI4UyncOL6nOsE6XtSt8'
+              target='_blank'
+            >
+              <ListItemButton
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  border: '2px solid #d1d5db', // Tailwind gray-300
+                  borderRadius: '1rem',
+                  padding: '0.7rem',
+                  mb: 1, // отступ снизу
+                  '&:hover': {
+                    backgroundColor: '#f3f4f6', // gray-100
+                  },
+                }}
+              >
+                <img src='/max.svg' className='w-10 h-10' />
+                <a
+                  className='text-lg font-semibold hover:text-black'
+                  href=' https://max.ru/u/f9LHodD0cOK9R9T971VS1ANcJ8TZCsQjKuGhrY3bI4UyncOL6nOsE6XtSt8'
+                >
+                  Max
+                </a>
+              </ListItemButton>
+            </a>
+
+            <a href='tel:+79633071303'>
+              {/* Телефон */}
+              <ListItemButton
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  border: '2px solid #d1d5db', // Tailwind gray-300
+                  borderRadius: '1rem',
+                  padding: '0.7rem',
+                  mb: 1, // отступ снизу
+                  '&:hover': {
+                    backgroundColor: '#f3f4f6', // gray-100
+                  },
+                }}
+              >
+                <img src='/phone.svg' className='w-10 h-10' alt='Phone' />
+                <a
+                  className='text-lg font-semibold hover:text-black'
+                  href='tel:+71234567890'
+                >
+                  +7 (963) 307-13-03
+                </a>
+              </ListItemButton>
+            </a>
           </List>
           <ListItemButton>
             {' '}
