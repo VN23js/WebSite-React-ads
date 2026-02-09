@@ -91,7 +91,7 @@ export default function Content3() {
               title: 'Штендер',
               description:
                 'Штендер — это переносной рекламный стенд, устанавливаемый перед магазином, кафе или офисом. Он информирует о специальных предложениях и акциях, привлекая клиентов прямо с улицы.',
-              img: 'https://i.pinimg.com/1200x/f6/e4/d4/f6e4d4ee57def730d13def20886b4a23.jpg',
+              img: 'https://i.pinimg.com/1200x/c8/6d/8b/c86d8b6739aacf8cf6482f5cf205398c.jpg',
             },
             {
               title: 'Вывески из металла',
@@ -158,7 +158,7 @@ export default function Content3() {
             },
           ].map((card, index) => (
             <Grid item xs={12} sm={6} md={6} lg={3.0}>
-              <AnimateCard index={index}  card={card} />
+              <AnimateCard index={index} card={card} />
             </Grid>
           ))}
         </Grid>
