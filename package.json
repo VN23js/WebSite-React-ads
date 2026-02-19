@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "postbuild": "react-snap",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -58,20 +57,5 @@
     "react-snap": "^1.23.0",
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
-  },
-  "reactSnap": {
-    "source": "dist",
-    "destination": "dist",
-    "inlineCss": true,
-    "removeScriptTags": false,
-    "fixWebp": true,
-    "skipThirdPartyRequests": true,
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--disable-dev-shm-usage",
-      "--disable-accelerated-2d-canvas",
-      "--disable-gpu"
-    ]
   }
 }
