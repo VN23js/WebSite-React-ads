@@ -9,9 +9,9 @@ export default function Header() {
         <div className='fon'>
           <div className='main-container'>
             <div className='header-div'>
-              <div class='logo'>
-                <div class='logo-mark'></div>
-                <div class='logo-text'>ART STICK</div>
+              <div className='logo'>
+                <div className='logo-mark'></div>
+                <div className='logo-text'>ART STICK</div>
               </div>
               <div className='header-text'>
                 <div className='hover-text'>

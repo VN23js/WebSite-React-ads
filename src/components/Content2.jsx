@@ -1,16 +1,8 @@
 import React from 'react';
 import '@/styles/global.css';
-import { styled } from '@mui/joy/styles';
-import Sheet from '@mui/joy/Sheet';
 import Grid from '@mui/joy/Grid';
-import Scene from '@/components/Scene.jsx';
-import { BoltStrike } from '@/components/ui/bolt-strike';
 import { motion } from 'framer-motion';
 import { BeamsUpstream } from '@/components/ui/beams-upstream';
-const Item = styled('div')(({ theme }) => ({
-  textAlign: 'center',
-  borderRadius: 4,
-}));
 
 export default function Content2() {
   return (
@@ -33,8 +25,8 @@ export default function Content2() {
           }}
         >
           {/* Первый блок с текстом */}
-          <Grid item xs={16} md={8}>
-            <Item>
+          <Grid item='true' xs={16} md={8}>
+            <div style={{ textAlign: 'center', borderRadius: '4px' }}>
               <div className='first-block'>
                 <motion.div
                   initial={{ opacity: 0, x: -100 }}
@@ -82,38 +74,37 @@ export default function Content2() {
                   </p>
                 </motion.div>
               </div>
-            </Item>
+            </div>
           </Grid>
 
           {/* Второй блок с 3D сценой */}
-          <Grid item xs={16} md={8}>
+          <Grid item='true' xs={16} md={8}>
             <motion.div
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.9, ease: 'easeOut' }}
             >
-              <Item>
+              <div style={{ textAlign: 'center', borderRadius: '4px' }}>
                 <div className='i'>
                   <div className='main-image-box'>
                     <img
+                      style={{ borderRadius: '20px' }}
                       src='/CLPQDGnnLOWt3KJFdBdAOytH5HvsbfJ5eq9ot3Ch7577QM878r8g9Ctwm0OMg22bVLRl29dftotBRf3wlpGDSaWU.jpg'
                       alt='Профессиональная поклейка окон и оформление витрин ART STICK в Санкт-Петербурге'
                     />
                   </div>
                 </div>
-              </Item>
+              </div>
             </motion.div>
           </Grid>
         </Grid>
       </div>
-      <div className='button-fon mt-6  '>
+
+      <div className='button-fon mt-6'>
         <a href='tel:+79633071303' className='color-w group'>
-          <button
-            className='button-glass color-w  bg-transparent font-semibold border-2 w-40 rounded-full border-white py-3
-         transition relative flex items-center justify-center group'
-          >
+          <button className='button-glass color-w bg-transparent font-semibold border-2 w-40 rounded-full border-white py-3 transition relative flex items-center justify-center group'>
             <span className='text-white'>Позвонить</span>
-            <span className=' ml-2 flex items-center justify-center w-6 h-6 border border-white rounded-full transition-transform duratiom-300 group-hover:translate-x-1'>
+            <span className='ml-2 flex items-center justify-center w-6 h-6 border border-white rounded-full transition-transform duration-300 group-hover:translate-x-1'>
               <svg
                 className='w-5 h-5 text-white'
                 fill='none'

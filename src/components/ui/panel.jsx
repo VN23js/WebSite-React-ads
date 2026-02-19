@@ -66,12 +66,7 @@ export default function Panel() {
                 }}
               >
                 <img src='/telegram.svg' className='w-10 h-10' alt='Telegram' />
-                <a
-                  className='text-lg font-semibold hover:text-black'
-                  href='https://t.me/Kot12290'
-                >
-                  Telegram
-                </a>
+                Telegram
               </ListItemButton>
             </a>
             <a href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'>
@@ -90,12 +85,7 @@ export default function Panel() {
                 }}
               >
                 <img src='/avito.png' className='w-10 h-10' alt='Avito' />
-                <a
-                  className='text-lg font-semibold hover:text-black'
-                  href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller'
-                >
-                  Avito
-                </a>
+                Avito
               </ListItemButton>
             </a>
 
@@ -116,13 +106,7 @@ export default function Panel() {
                 }}
               >
                 <img src='/vk-v2.svg' className='w-10 h-10' alt='WhatsApp' />
-
-                <a
-                  className='text-lg font-semibold hover:text-black'
-                  href='https://vk.ru/reclame'
-                >
-                  VK
-                </a>
+                VK
               </ListItemButton>
             </a>
             <a
@@ -144,12 +128,7 @@ export default function Panel() {
                 }}
               >
                 <img src='/max.svg' className='w-10 h-10' />
-                <a
-                  className='text-lg font-semibold hover:text-black'
-                  href=' https://max.ru/u/f9LHodD0cOK9R9T971VS1ANcJ8TZCsQjKuGhrY3bI4UyncOL6nOsE6XtSt8'
-                >
-                  Max
-                </a>
+                Max
               </ListItemButton>
             </a>
 
@@ -170,12 +149,7 @@ export default function Panel() {
                 }}
               >
                 <img src='/phone.svg' className='w-10 h-10' alt='Phone' />
-                <a
-                  className='text-lg font-semibold hover:text-black'
-                  href='tel:+71234567890'
-                >
-                  +7 (963) 307-13-03
-                </a>
+                +7 (963) 307-13-03
               </ListItemButton>
             </a>
           </List>

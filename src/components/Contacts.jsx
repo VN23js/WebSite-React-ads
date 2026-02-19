@@ -12,7 +12,7 @@ const Item = styled(Sheet)(({ theme }) => ({
 export default function FullWidthGrid() {
   return (
     <Grid justifyContent={'center'} container spacing={2}>
-      <Grid items xs={12} sm={6} md={6} lg={4.0}>
+      <Grid item='true' xs={12} sm={6} md={6} lg={4.0}>
         <Item
           sx={{
             background: '#151518',
@@ -61,7 +61,7 @@ export default function FullWidthGrid() {
           </div>
         </Item>
       </Grid>
-      <Grid items xs={12} sm={6} md={6} lg={4.0}>
+      <Grid item='true' xs={12} sm={6} md={6} lg={4.0}>
         <Item
           sx={{
             background: '#151518',
@@ -113,7 +113,7 @@ export default function FullWidthGrid() {
           </div>
         </Item>
       </Grid>
-      <Grid items xs={12} sm={6} md={6} lg={4.0}>
+      <Grid item='true' xs={12} sm={6} md={6} lg={4.0}>
         <Item
           sx={{
             background: '#151518',
@@ -171,7 +171,7 @@ export default function FullWidthGrid() {
           </div>
         </Item>
       </Grid>
-      <Grid items xs={12} sm={6} md={6} lg={4.0}>
+      <Grid item='true' xs={12} sm={6} md={6} lg={4.0}>
         <Item
           sx={{
             background: '#151518',
@@ -228,7 +228,7 @@ export default function FullWidthGrid() {
           </div>
         </Item>
       </Grid>
-      <Grid items xs={12} sm={6} md={6} lg={4.0}>
+      <Grid item='true' xs={12} sm={6} md={6} lg={4.0}>
         <Item
           sx={{
             background: '#151518',

@@ -7,7 +7,6 @@ import { Contact } from 'lucide-react';
 import ContactPanel from './components/ContactPanel';
 
 export default function App() {
-
   return (
     <BrowserRouter>
       <Header />
