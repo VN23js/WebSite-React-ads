@@ -78,7 +78,7 @@ export default function DrawerMobileNavigation() {
             <a
               onClick={() => setOpen(false)}
               className='hover:text-black w-full'
-              href='https://m.avito.ru/user/d408dd0bec883d10d60bcd80fec8b2ec/profile/all/predlozheniya_uslug?id=2815277141&src=item&sellerId=d408dd0bec883d10d60bcd80fec8b2ec#open-reviews-list'
+              href='https://m.avito.ru/user/ff57fd70968c6acac86e02d11ea62c53/profile/all/predlozheniya_uslug?id=2815277141&src=item&sellerId=ff57fd70968c6acac86e02d11ea62c53#open-reviews-list'
             >
               Отзывы
             </a>

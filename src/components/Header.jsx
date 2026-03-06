@@ -28,7 +28,7 @@ export default function Header() {
                 <div className='hover-text'>
                   <a
                     className='hover:text-black'
-                    href='   https://m.avito.ru/user/d408dd0bec883d10d60bcd80fec8b2ec/profile/all/predlozheniya_uslug?id=2815277141&src=item&sellerId=d408dd0bec883d10d60bcd80fec8b2ec#open-reviews-list'
+                    href='https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/vyveski_svetovye_2815277141?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller#open-reviews-list'
                   >
                     Отзывы
                   </a>
